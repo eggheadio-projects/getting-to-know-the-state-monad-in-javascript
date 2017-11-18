@@ -1,0 +1,21 @@
+{
+  "name": "eggheadio-evil-state",
+  "version": "0.0.1",
+  "description": "0x04 Modify The State Of A State Monad",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js -q -x 'clear && node'",
+    "setup": "rm -rf node_modules && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Hofmann-Hicks (evil)",
+  "license": "ISC",
+  "dependencies": {
+    "eyes": "^0.1.8",
+    "crocks": "^0.8.1",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
