@@ -1,38 +1,46 @@
-## Getting To Know The State Monad on `egghead.io`
+## 0x07 Apply Stateful Computations To Functions
 
-This is the main repository that houses all the code examples from the lessons I have done on
-[egghead.io][1] for the course "Geeting to Know The State Monad in Javascript". Every lesson
-has its own branch that includes all the source code from the lesson, usually including
-additional bits to further expand on the topic at hand.
+When building our stateful computations, there will come a time when we’ll
+need to combine two or more state transactions at the same time to come up
+with a new result. Usually this occurs when want to use plain ol’ JavaScript
+functions with two or more a arguments as part of our stateful computations.
 
-### Included Lessons
+We first look at how this can be accomplished by using `chain` and closure to
+get access to both functions. Then we will explore how we can leverage the `of`
+construction helper and the `ap` `State` instance method to clean this type of
+interaction up a bit. We then conclude with an even cleaner approach that takes
+full advantage of a `crocks` helper function named `liftA2`.
 
-| Title | Egghead Lesson | Plunker | Branch |
-|-------|----------------|---------|--------|
+The lesson on egghead can be found [here][5]
 
 ### Requirements
-These code examples run on a POSIX based system (Linux, OSX, etc) in a [nodejs][2] environment
+This code example runs on a POSIX based system (Linux, OSX, etc) in a [nodejs][2] environment
 requiring a version greater than `4.2.x` to be run. If you *have* to work in another environment,
-each lesson also has a "plunk" hosted on [Plunker][3] that can be run in browser.
+this lesson also has a "plunk" hosted on [Plunker][3] that can be run in browser and can be found
+here:
 
-### Using These Examples
-All code examples and environments are provided on there own branch, named after the lesson it
-goes with. After pull this repository down, just checkout the branch you are interested in and
-run the following commands:
+[Lesson Plunk][4]
+
+### Using This Example
+This code example and environment is provided on its own branch. To run this locally, just clone
+this repository down, check out this branch and run the following commands:
 
 #### Setup Your Dependencies
-Different lessons may require different environments and dependencies. Some lessons are just run in node, while others run in the browser with a "poor man's build system". These lessons include an npm script to manage the dependencies for the specific lesson. To setup the lesson, execute this command in the lessons folder:
+To setup the lesson, execute this command in the project folder:
 
 ```
 $ npm run setup
 ```
 
-#### Run The Examples
-Once all dependencies have been pulled down, you can then run the examples with another npm script. How the results are viewed varies from lesson to lesson, so check each lesson's `README.md` to see how the results are viewed.
+#### Run The Code
+Once all dependencies have been pulled down, you can then run the example code.
 
-When running the examples, they will continue to run, listening to changes in your files. Once one of the files change, it will re-run/recompile script. When you are done playing with the code, you can quit the example with `ctrl+c` to get back to your prompt.
+This code runs in a node environment and logs to the console that the code was run in. Once
+started, the environment will listen to changes to the files and re-run the code. This allows
+you to have immediate feed back to the changes you made. To exit out of the code example,
+just press the keystroke `Ctrl+C`.
 
-You can run the examples by calling the following:
+To run the lesson, execute the following in the project folder:
 
 ```
 $ npm start
@@ -41,3 +49,6 @@ $ npm start
 [1]: https://egghead.io/instructors/ian-hofmann-hicks
 [2]: https://nodejs.org/
 [3]: https://plnkr.co/
+
+[4]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x07-combine-function/plnkr?show=script.js,preview
+[5]: https://egghead.io/lessons/javascript-apply-stateful-computations-to-functions
