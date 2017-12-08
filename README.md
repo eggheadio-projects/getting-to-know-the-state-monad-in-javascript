@@ -62,37 +62,37 @@ $ npm start
 [3]: https://plnkr.co/
 
 [4]: https://egghead.io/lessons/javascript-construct-a-stateful-monad
-[5]: https://embed.plnkr.co/?show=script
+[5]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x00-construction/plnkr?show=script.js,preview
 [6]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x00-construction
 
 [7]: https://egghead.io/lessons/javascript-map-and-evaluate-state-with-a-stateful-monad
-[8]: https://embed.plnkr.co/?show=script
+[8]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x01-map-and-eval/plnkr?show=script.js,preview
 [9]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x01-map-and-eval
 
 [10]: https://egghead.io/lessons/javascript-substitute-state-using-functions-with-a-state-monad
-[11]: https://embed.plnkr.co/?show=script
+[11]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x02-get-sub-state/plnkr?show=script.js,preview
 [12]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x02-get-sub-state
 
 [13]: https://egghead.io/lessons/egghead-update-the-state-of-a-state-monad
-[14]: https://embed.plnkr.co/?show=script
+[14]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x03-put-and-exec/plnkr?show=script.js,preview
 [15]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x03-put-and-exec
 
 [16]: https://egghead.io/lessons/egghead-modify-the-state-of-a-state-monad
-[17]: https://embed.plnkr.co/?show=script
+[17]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x04-modify-state/plnkr?show=script.js,preview
 [18]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x04-modify-state
 
 [19]: https://egghead.io/lessons/egghead-combine-stateful-computations-using-a-state-monad
-[20]: https://embed.plnkr.co/?show=script
+[20]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x05-combine/plnkr?show=script.js,preview
 [21]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x05-combine
 
 [22]: https://egghead.io/lessons/javascript-combine-stateful-computations-using-composition
-[23]: https://embed.plnkr.co/?show=script
+[23]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x06-compose-computations/plnkr?show=script.js,preview
 [24]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x06-compose-computations
 
 [25]: https://egghead.io/lessons/javascript-apply-stateful-computations-to-functions
-[26]: https://embed.plnkr.co/?show=script
+[26]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x07-combine-function/plnkr?show=script.js,preview
 [27]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x07-combine-function
 
 [28]: https://egghead.io/lessons/javascript-refactor-stateful-code-to-use-a-state-monad
-[29]: https://embed.plnkr.co/?show=script
+[29]: https://embed.plnkr.co/github/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/0x08-refactor-state/plnkr?show=script.js,preview
 [30]: https://github.com/eggheadio-projects/getting-to-know-the-state-monad-in-javascript/tree/0x08-refactor-state
